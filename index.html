@@ -1,130 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Horizon - Server Monitoring</title>
-    <!-- Bootstrap -->
-	
-	
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-	<script>var netdataTheme = 'slate';</script>
-	<script type="text/javascript" src="https://horizon.scotthelme.co.uk/server1/dashboard.js?v20170105-7"></script>
-	<link href="css/style.css?d=20170210-2035" rel="stylesheet">
-  </head>
-  <body>
-  
-<div class="container">
-  <div class="row">
-	  <div class="col-xs-12"><h1 class="text-center">Horizon</h1></div>
-  </div>
-  
-  
-  <!--  First Row of Graphs -->
-  
-  <div class="row">
-  
-  <!-- grid referencce:
-  
-  1 col mobile
-  2 col up to 768px;
-  3 col up to 991px;
-  4 col over ... container stops at 1200px;
-  
-  note the final column in the row has md-offset-4 and lg-offset-0  this is to center the column on medium sized media, and remove the offsetting on larger media
-  -->
-  
-  
-	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
-  
-  		<!-- Nested container for each graph -->
-  		
- 		
- 		 	<div class="row">
-				<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Horizon - Server Monitoring</title>
+		<script>var netdataTheme = 'slate';</script>
+		<script type="text/javascript" src="https://horizon.scotthelme.co.uk/server1/dashboard.js?v20170105-7"></script>
+		<link href="style.css?d=20170210-2035" rel="stylesheet">
+	</head>
+<body>
+	<div class="container">
+		<div class="row">
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
+				<div class="row">
+					<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
+				</div>
+				<div class="row">
+					<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/server1/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
+				</div>
 			</div>
-			<div class="row">
-				<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/server1/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
+				<div class="row">
+					<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
+				</div>
+				<div class="row">
+					<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/scotthelme.co.uk/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
+				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
+				<div class="row">
+					<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
+				</div>
+				<div class="row">
+					<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/server1/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
+				</div>
 			</div>
-		  
-  
-	  </div>
-	  
-	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
-  
-  		<!-- Nested container for each graph -->
-  		
- 		 
- 		 	<div class="row">
-				<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
+				<div class="row">
+					<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
+				</div>
+				<div class="row">
+					<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/scotthelme.co.uk/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
+				</div>
 			</div>
-			<div class="row">
-				<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/scotthelme.co.uk/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
-			</div>
-		  
-  
-	  </div>
-	  
-	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
-  
-  		<!-- Nested container for each graph -->
-  		
- 		
- 		 	<div class="row">
-				<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
-			</div>
-			<div class="row">
-				<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/server1/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
-			</div>
-		  
-  
-	  </div>
-	  
-	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
-  
-  		<!-- Nested container for each graph -->
-  		
- 		 
- 		 	<div class="row">
-				<div class="col-xs-12"><h3 class="text-center">Graph Heading</h3></div>
-			</div>
-			<div class="row">
-				<div data-netdata="system.cpu" data-host="https://horizon.scotthelme.co.uk/scotthelme.co.uk/" data-chart-library="gauge" data-width="50%" data-after="-540" data-points="540" data-title="CPU Test Server" data-units="%" data-colors="#FF5555" class="netdata-container" style="width: 200px; height: 140px;"></div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12"><p class="text-center"><a href="#" class="btn btn-primary">Click Me!</a></p></div>
-			</div>
-		  
-  
-	  </div>
-	  
+		</div>
 	</div>
-  
-  </div>
-  
-	  
-  
-  
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" integrity="sha256-rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<script src="js/bootstrap.js"></script>
-  </body>
+</body>
 </html>
